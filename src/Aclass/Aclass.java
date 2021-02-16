@@ -1,5 +1,5 @@
 package Aclass;
 
-public class Aclass {
-
+public interface Aclass  {
+	public int multiple(int a, int b);
 }
