@@ -13,7 +13,7 @@ public class AclassImpl implements Aclass {
 		
 		LCM = val1*val2 /val1;
 		
-		return LCM;
+		System.out.println("최소공배수는 " + LCM);
 		
 		
 	}
