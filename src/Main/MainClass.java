@@ -2,6 +2,8 @@ package Main;
 
 import java.util.Scanner;
 
+import Aclass.AclassImpl;
+
 public class MainClass {
 public static void main(String[] args) {
 	Scanner input = new Scanner(System.in);
@@ -13,6 +15,10 @@ public static void main(String[] args) {
 		num = input.nextInt();
 	switch(num){
 		case 1:
+			int LCM = 0;
+			AclassImpl Aclass = new AclassImpl();
+			LCM = Aclass.multiple(a, b);
+			System.out.println("두 수의 최소공배수" + LCM);
 		case 2:
 		case 3:
 	}
