@@ -9,7 +9,7 @@ public static void main(String[] args) {
 	
 	
 	while(true) {
-		System.out.println("========¼ıÀÚ ÇÁ·Î±×·¥==========\n 1.ÃÖ¼Ò°ø¹è¼ö\n 2.ÃÖ´ë°ø¾à¼ö \n 3.µÎ ¼öÀÇ ÇÕ");
+		System.out.println("========ìˆ«ìí”„ë¡œê·¸ë¨==========\\n 1.ìµœì†Œ ê³µë°°ìˆ˜\\n 2.ìµœëŒ€ ê³µì•½ìˆ˜ \\n 3.ë‘ ìˆ˜ì˜ í•©");
 		num = input.nextInt();
 	switch(num){
 		case 1:
